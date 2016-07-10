@@ -1,0 +1,9 @@
+c:\users\helli\documents\visual studio 2015\Projects\TMPFontChanger\TMPFontChanger\bin\Debug\TMPFontChanger.exe.config
+c:\users\helli\documents\visual studio 2015\Projects\TMPFontChanger\TMPFontChanger\bin\Debug\TMPFontChanger.exe
+c:\users\helli\documents\visual studio 2015\Projects\TMPFontChanger\TMPFontChanger\bin\Debug\TMPFontChanger.pdb
+c:\users\helli\documents\visual studio 2015\Projects\TMPFontChanger\TMPFontChanger\obj\Debug\TMPFontChanger.csprojResolveAssemblyReference.cache
+c:\users\helli\documents\visual studio 2015\Projects\TMPFontChanger\TMPFontChanger\obj\Debug\TMPFontChanger.Form1.resources
+c:\users\helli\documents\visual studio 2015\Projects\TMPFontChanger\TMPFontChanger\obj\Debug\TMPFontChanger.Properties.Resources.resources
+c:\users\helli\documents\visual studio 2015\Projects\TMPFontChanger\TMPFontChanger\obj\Debug\TMPFontChanger.csproj.GenerateResource.Cache
+c:\users\helli\documents\visual studio 2015\Projects\TMPFontChanger\TMPFontChanger\obj\Debug\TMPFontChanger.exe
+c:\users\helli\documents\visual studio 2015\Projects\TMPFontChanger\TMPFontChanger\obj\Debug\TMPFontChanger.pdb
