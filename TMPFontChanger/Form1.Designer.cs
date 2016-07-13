@@ -38,6 +38,7 @@
             this.txt_TMPlocation = new System.Windows.Forms.TextBox();
             this.btnLocation = new System.Windows.Forms.Button();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            this.btn_restore = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cb_InstalledFonts
@@ -63,7 +64,7 @@
             // 
             this.btn_copy.Location = new System.Drawing.Point(12, 221);
             this.btn_copy.Name = "btn_copy";
-            this.btn_copy.Size = new System.Drawing.Size(290, 23);
+            this.btn_copy.Size = new System.Drawing.Size(208, 23);
             this.btn_copy.TabIndex = 2;
             this.btn_copy.Text = "Apply font";
             this.btn_copy.UseVisualStyleBackColor = true;
@@ -121,11 +122,22 @@
             this.folderBrowserDialog1.RootFolder = System.Environment.SpecialFolder.MyComputer;
             this.folderBrowserDialog1.ShowNewFolderButton = false;
             // 
+            // btn_restore
+            // 
+            this.btn_restore.Location = new System.Drawing.Point(226, 220);
+            this.btn_restore.Name = "btn_restore";
+            this.btn_restore.Size = new System.Drawing.Size(75, 23);
+            this.btn_restore.TabIndex = 8;
+            this.btn_restore.Text = "Restore";
+            this.btn_restore.UseVisualStyleBackColor = true;
+            this.btn_restore.Click += new System.EventHandler(this.btn_restore_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(314, 252);
+            this.Controls.Add(this.btn_restore);
             this.Controls.Add(this.btnLocation);
             this.Controls.Add(this.txt_TMPlocation);
             this.Controls.Add(this.label3);
@@ -157,6 +169,7 @@
         private System.Windows.Forms.TextBox txt_TMPlocation;
         private System.Windows.Forms.Button btnLocation;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
+        private System.Windows.Forms.Button btn_restore;
     }
 }
 

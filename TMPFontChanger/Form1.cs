@@ -44,7 +44,7 @@ namespace TMPFontChanger
 
         private void btnCopy_Click(object sender, EventArgs e)
         {
-            string destinationFolder = @"E:\TruckersMP\data\shared\fonts";
+            string destinationFolder = txt_TMPlocation.Text + @"\data\shared\fonts";
 
             if (File.Exists(destinationFolder + "\\OpenSans.ttf"))
             {
@@ -129,6 +129,19 @@ namespace TMPFontChanger
                 txt_TMPlocation.Text = location;
                 txt_TMPlocation.ForeColor = Color.Black;
                 btn_copy.Enabled = true;
+            }
+        }
+
+        private void btn_restore_Click(object sender, EventArgs e)
+        {
+            string destinationFolder = txt_TMPlocation.Text + @"\data\shared\fonts";
+            if(File.Exists(destinationFolder + "\\OpenSans.ttf"))
+            {
+                File.Delete(destinationFolder + "\\OpenSans.ttf");
+                if(File.Exists(destinationFolder + "\\ORIGINAL_OpenSans.ttf"))
+                {
+                    File.Move(destinationFolder + "\\ORIGINAL_OpenSans.ttf", destinationFolder + "\\OpenSans.ttf");
+                }
             }
         }
     }
