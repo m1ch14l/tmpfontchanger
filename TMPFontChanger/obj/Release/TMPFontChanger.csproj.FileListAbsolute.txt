@@ -6,3 +6,12 @@ c:\Users\helli\Documents\Visual Studio 2015\Projects\TMPFontChanger\TMPFontChang
 c:\Users\helli\Documents\Visual Studio 2015\Projects\TMPFontChanger\TMPFontChanger\obj\Release\TMPFontChanger.csproj.GenerateResource.Cache
 c:\Users\helli\Documents\Visual Studio 2015\Projects\TMPFontChanger\TMPFontChanger\obj\Release\TMPFontChanger.exe
 c:\Users\helli\Documents\Visual Studio 2015\Projects\TMPFontChanger\TMPFontChanger\obj\Release\TMPFontChanger.pdb
+C:\Users\Michiel\Desktop\tmpfontchanger-master\TMPFontChanger\bin\Release\TMPFontChanger.exe.config
+C:\Users\Michiel\Desktop\tmpfontchanger-master\TMPFontChanger\obj\Release\TMPFontChanger.exe
+C:\Users\Michiel\Desktop\tmpfontchanger-master\TMPFontChanger\obj\Release\TMPFontChanger.pdb
+C:\Users\Michiel\Desktop\tmpfontchanger-master\TMPFontChanger\bin\Release\TMPFontChanger.exe
+C:\Users\Michiel\Desktop\tmpfontchanger-master\TMPFontChanger\bin\Release\TMPFontChanger.pdb
+C:\Users\Michiel\Desktop\tmpfontchanger-master\TMPFontChanger\obj\Release\TMPFontChanger.csprojResolveAssemblyReference.cache
+C:\Users\Michiel\Desktop\tmpfontchanger-master\TMPFontChanger\obj\Release\TMPFontChanger.Form1.resources
+C:\Users\Michiel\Desktop\tmpfontchanger-master\TMPFontChanger\obj\Release\TMPFontChanger.Properties.Resources.resources
+C:\Users\Michiel\Desktop\tmpfontchanger-master\TMPFontChanger\obj\Release\TMPFontChanger.csproj.GenerateResource.Cache
