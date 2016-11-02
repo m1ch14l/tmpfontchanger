@@ -32,8 +32,13 @@ namespace TMPFontChanger
                 using (var localMachine = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64))
                 using (var Regkey = localMachine.OpenSubKey(@"Software\TruckersMP", false))
                 {
-                    
-                    object InstallDir = Regkey.GetValue("InstallDir");
+                if (Regkey == null)
+                {
+                    MessageBox.Show(null, "TruckersMP is not installed or it's installed incorrectly.", "ERROR");
+                    return "";
+
+                }
+                object InstallDir = Regkey.GetValue("InstallDir");
                 if(InstallDir == null)
                 {
                     MessageBox.Show(null, "TruckersMP is not installed or it's installed incorrectly.", "ERROR");
