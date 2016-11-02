@@ -103,6 +103,12 @@ namespace TMPFontChanger
 
             File.Copy(source, destination);
             File.Move(destinationFolder + "\\" + font, destinationFolder + "\\OpenSans.ttf");
+
+            MessageBox.Show("Font is changed, happy trucking!",
+                "TMPFontChanger",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Information,
+                MessageBoxDefaultButton.Button1);
         }
 
         public static string GetSystemFontFileName(Font font)
@@ -182,6 +188,12 @@ namespace TMPFontChanger
                     File.Move(destinationFolder + "\\ORIGINAL_OpenSans.ttf", destinationFolder + "\\OpenSans.ttf");
                 }
             }
+
+            MessageBox.Show("Original font is restored!",
+                "TMPFontChanger",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Information,
+                MessageBoxDefaultButton.Button1);
         }
 
         private void button1_Click(object sender, EventArgs e)
