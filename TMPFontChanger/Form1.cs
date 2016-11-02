@@ -22,10 +22,49 @@ namespace TMPFontChanger
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            checkFolder(txt_TMPlocation.Text);
+            checkFolder("");
             LoadFonts();
         }
+        public string autodetect()
+        {
+            string TMPDir;
+        
+                using (var localMachine = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64))
+                using (var Regkey = localMachine.OpenSubKey(@"Software\TruckersMP", false))
+                {
+                    
+                    object InstallDir = Regkey.GetValue("InstallDir");
+                if(InstallDir == null)
+                {
+                    MessageBox.Show(null, "TruckersMP is not installed or it's installed incorrectly.", "ERROR");
+                    return "";
 
+                }
+                    TMPDir = InstallDir.ToString();
+                    if (TMPDir != "")
+                    {
+                        DialogResult Res = MessageBox.Show(null, @"We've automatically detected TruckersMP path as " + TMPDir + ". Is this correct?", "TruckersMP directory autodetected", MessageBoxButtons.YesNo);
+                        if (Res == DialogResult.Yes)
+                        {
+                            return TMPDir;
+
+                        }
+                        else
+                        {
+                            DialogResult result = folderBrowserDialog1.ShowDialog();
+                            if (result == DialogResult.OK)
+                            {
+                                return folderBrowserDialog1.SelectedPath;
+                            }
+
+                        }
+                    }
+
+                }
+
+            return "";
+
+        }
         private void LoadFonts()
         {
             InstalledFontCollection installedFonts = new InstalledFontCollection();
@@ -117,7 +156,7 @@ namespace TMPFontChanger
 
         private void checkFolder(string location)
         {
-            if (!Directory.Exists(location + "\\data"))
+            if (!Directory.Exists(location + "\\data\\shared\\fonts"))
             {
                 txt_TMPlocation.Text = "WRONG FOLDER, CHECK AGAIN!";
                 txt_TMPlocation.ForeColor = Color.Red;
@@ -143,6 +182,11 @@ namespace TMPFontChanger
                     File.Move(destinationFolder + "\\ORIGINAL_OpenSans.ttf", destinationFolder + "\\OpenSans.ttf");
                 }
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            checkFolder(autodetect());
         }
     }
 }
