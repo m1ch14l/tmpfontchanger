@@ -22,9 +22,11 @@ namespace TMPFontChanger
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            checkFolder("");
+            //checkFolder("");
+            checkFolder(txt_TMPlocation.Text);
             LoadFonts();
         }
+
         public string autodetect()
         {
             string TMPDir;

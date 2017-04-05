@@ -15,3 +15,12 @@ C:\Users\Michiel\Desktop\tmpfontchanger-master\TMPFontChanger\obj\Debug\TMPFontC
 C:\Users\Michiel\Desktop\tmpfontchanger-master\TMPFontChanger\obj\Debug\TMPFontChanger.Form1.resources
 C:\Users\Michiel\Desktop\tmpfontchanger-master\TMPFontChanger\obj\Debug\TMPFontChanger.Properties.Resources.resources
 C:\Users\Michiel\Desktop\tmpfontchanger-master\TMPFontChanger\obj\Debug\TMPFontChanger.csproj.GenerateResource.Cache
+C:\Users\helli\Documents\GitHub\tmpfontchanger\TMPFontChanger\bin\Debug\TMPFontChanger.exe.config
+C:\Users\helli\Documents\GitHub\tmpfontchanger\TMPFontChanger\obj\Debug\TMPFontChanger.exe
+C:\Users\helli\Documents\GitHub\tmpfontchanger\TMPFontChanger\obj\Debug\TMPFontChanger.pdb
+C:\Users\helli\Documents\GitHub\tmpfontchanger\TMPFontChanger\bin\Debug\TMPFontChanger.exe
+C:\Users\helli\Documents\GitHub\tmpfontchanger\TMPFontChanger\bin\Debug\TMPFontChanger.pdb
+C:\Users\helli\Documents\GitHub\tmpfontchanger\TMPFontChanger\obj\Debug\TMPFontChanger.csprojResolveAssemblyReference.cache
+C:\Users\helli\Documents\GitHub\tmpfontchanger\TMPFontChanger\obj\Debug\TMPFontChanger.Form1.resources
+C:\Users\helli\Documents\GitHub\tmpfontchanger\TMPFontChanger\obj\Debug\TMPFontChanger.Properties.Resources.resources
+C:\Users\helli\Documents\GitHub\tmpfontchanger\TMPFontChanger\obj\Debug\TMPFontChanger.csproj.GenerateResource.Cache

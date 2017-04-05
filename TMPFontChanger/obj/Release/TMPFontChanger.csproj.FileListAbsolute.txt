@@ -15,3 +15,11 @@ C:\Users\Michiel\Desktop\tmpfontchanger-master\TMPFontChanger\obj\Release\TMPFon
 C:\Users\Michiel\Desktop\tmpfontchanger-master\TMPFontChanger\obj\Release\TMPFontChanger.Form1.resources
 C:\Users\Michiel\Desktop\tmpfontchanger-master\TMPFontChanger\obj\Release\TMPFontChanger.Properties.Resources.resources
 C:\Users\Michiel\Desktop\tmpfontchanger-master\TMPFontChanger\obj\Release\TMPFontChanger.csproj.GenerateResource.Cache
+C:\Users\helli\Documents\GitHub\tmpfontchanger\TMPFontChanger\bin\Release\TMPFontChanger.exe.config
+C:\Users\helli\Documents\GitHub\tmpfontchanger\TMPFontChanger\bin\Release\TMPFontChanger.exe
+C:\Users\helli\Documents\GitHub\tmpfontchanger\TMPFontChanger\bin\Release\TMPFontChanger.pdb
+C:\Users\helli\Documents\GitHub\tmpfontchanger\TMPFontChanger\obj\Release\TMPFontChanger.Form1.resources
+C:\Users\helli\Documents\GitHub\tmpfontchanger\TMPFontChanger\obj\Release\TMPFontChanger.Properties.Resources.resources
+C:\Users\helli\Documents\GitHub\tmpfontchanger\TMPFontChanger\obj\Release\TMPFontChanger.csproj.GenerateResource.Cache
+C:\Users\helli\Documents\GitHub\tmpfontchanger\TMPFontChanger\obj\Release\TMPFontChanger.exe
+C:\Users\helli\Documents\GitHub\tmpfontchanger\TMPFontChanger\obj\Release\TMPFontChanger.pdb
